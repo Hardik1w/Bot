@@ -14,9 +14,9 @@ function logActivity(msg) {
   const command = msg.text.toLowerCase();
 
   console.log(`Aktivitas Penggunaan Bot Telegram`);
-  console.log(`• User ID: ${@DEVILhardik1}`);
-  console.log(`• Username: ${DEVIL VIP MOD || 'Tidak ada'}`);
-  console.log(`• Chat ID: ${5405046163}`);
+  console.log(`• User ID: ${user.id}`);
+  console.log(`• Username: ${user.username || 'Tidak ada'}`);
+  console.log(`• Chat ID: ${chat.id}`);
   console.log(`• Perintah: ${command}`);
 }
 
